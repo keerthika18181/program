@@ -1,8 +1,9 @@
-*{
+body{
     font-family: Arial, sans-serif;
     margin: 0;
     padding:0px 0px;
     box-sizing: border-box;
+    background-color: #165966;
 }
 
 .container{
@@ -18,12 +19,8 @@
     display:flex;
     flex-direction:column;
     align-items: flex-start;
-    padding:20px;
     align-items:center;
     color:#fff;
-    margin-top:50px;
-    margin-bottom: 50px;
-    margin-left: 50px;
 }
 
 .left-panel h1{
@@ -48,13 +45,13 @@
     width:50% ;
     background-color: #fff;
     text-align: left;
-    margin-top: 100px;
+    margin:5%;
 }
 .right-panel h2{
     font-size: 24px;
     font-weight: bold;
     display: absolute;
-    padding-top: 50px;
+    padding-top: px;
 }
 .right-panel p{
     font-size: 14px;
@@ -108,7 +105,7 @@ button[type="submit"]:hover {
   border-color: #333;
   background-color: #3c199b;
   color:white;
-  padding-left: 5px;
+  padding: 5px 10px;
 }
 .btn1{
   top:1px;
@@ -120,7 +117,7 @@ button[type="submit"]:hover {
   border-color: #333;
   background-color: #165966;
   color:white;
-  padding-left: 5px;
+  padding: 5px 10px;
 }
 .btn2{
   top:1px;
@@ -132,7 +129,7 @@ button[type="submit"]:hover {
   border-color: #333;
   background-color: #5b292a;
   color:white;
-  padding-left: 5px;
+  padding: 5px 10px;
 }
 .btn0{
   top:1px;
